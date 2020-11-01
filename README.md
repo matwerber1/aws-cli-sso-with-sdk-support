@@ -1,5 +1,5 @@
 # aws-cli-sso-with-sdk-support
-Quick hack to make the AWS SDK work locally after logging in with AWS SSO
+Quick hack to make the AWS SDK work locally after logging in to the AWS CLI with AWS SSO
 
 ## How it works
 
