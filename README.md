@@ -1,6 +1,10 @@
 # aws-cli-sso-with-sdk-support
 Quick hack to make the AWS SDK work locally after logging in to the AWS CLI with AWS SSO
 
+## UPDATE
+
+Just realized my understanding of where AWS SSO stores credentials is wrong. The `./aws/cli/cache` is not the right place to read from... I need to investigate where I can get the creds from and once I find this, I will update this project. For now, I don't think the below guide is accurate.
+
 ## How it works
 
 If you use AWS SSO to manage access to your AWS account, you can use the [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) (via  `aws sso login`) to login and enable CLI commands to use your SSO credentials
